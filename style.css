@@ -212,13 +212,13 @@ a {
 
 
 @media (min-width: 800px) {
-  .container {
+  .container,.banner,.sobre,.header {
     width: 600px;
   }
 }
 
 @media (min-width: 1000px) {
-  .container {
+  .container,.banner,.sobre,.header  {
     width: 800px;
   }
 }
