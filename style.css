@@ -209,12 +209,7 @@ a {
   .container {
     width: 400px;
   }
-  .header h1{
-	  font-size: 20px;
-  }
-  .banner h1{
-	  font-size: 30px;
-  }
+
 }
 
 
@@ -237,6 +232,13 @@ a {
   
   .card-white {
     width: auto;
+  }
+
+	  .header h1{
+	  font-size: 20px;
+  }
+  .banner h1{
+	  font-size: 30px;
   }
 }
 
