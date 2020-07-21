@@ -205,7 +205,7 @@ a {
 
   
 @media (min-width: 500px) {
-  .container {
+  .container,.banner,.sobre,.header {
     width: 400px;
   }
 }
