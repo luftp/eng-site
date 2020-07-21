@@ -18,12 +18,8 @@ h1 {
 }
 
 
-h2, h3 {
-  font-family: Chivo;
-}
-
 a {
-  color: #1A48E3;
+  color: white;
   font-weight: bold;
   text-decoration: none;
   transition: .3s;
@@ -42,7 +38,7 @@ a {
 	position: relative;
 	color: white;
 	text-align: right;
-	height: 75vh;
+	height: 100hv;
 	padding: 0px 0px;
 
 }
@@ -88,10 +84,9 @@ a {
 
 .banner h1 {
 	margin:0;
-	padding: 200px 250px;
+	padding: 200px 50px 250px 250px;
 	color: rgba(30,30,30,0.8);
 	font-size: 45px;
-	margin-bottom: 40px;
 	
 }
 
@@ -113,15 +108,69 @@ a {
 	box-shadow: 1px 1px 10px rgba(0,0,0,0.1);
 	padding: 18px;
 	border-radius: 3px;
-	width: 200px;
-	margin: 8px;
+	width: 300px;
+	margin:auto;
 }
 
 .card-white img{
-	width: 180px;
-	height: 180px;
-	object-fit: cover;
+	width: 300px;
+	height: 200px;
+	object-fit: contain;
 	border-radius: 4px;
+}
+
+
+
+.sobre{
+	
+	width: 800px;
+	margin: auto;
+}
+
+.sobre h2{
+
+	padding-top: 100px;
+}
+.sobre p{
+	text-align: left;
+	font-family: 'Signika', sans-serif;
+	font-size: 18px;
+}
+
+
+.sb-card {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5px;
+	
+}
+
+.sb-img{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.sb-img img{
+	width: 100px;
+	height: 100px;
+	object-fit: contain;
+}
+
+.contato{
+	
+	width: 800px;
+	margin: auto;
+	margin-top: 150px;
+}
+
+.contato h2{
+	padding-top: 100px;
+}
+.contato p{
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Signika', sans-serif;
+	font-size: 50px;
 }
 
 
@@ -129,18 +178,26 @@ a {
 
 	width: 800px;
 	margin: auto;
+	margin-top: 200px;
+	
+}
+
+.container h2{
+	padding-top: 100px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 .cards{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 16px;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
 }
 
 
 .footer{
 	background-color: #b9cced;
-	
+	margin-top: 50px;
 	text-align: center;
 	padding: 18px;
 	color:rgba(50,50,50,0.8);
