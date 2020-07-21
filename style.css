@@ -205,20 +205,26 @@ a {
 
   
 @media (min-width: 500px) {
-  .container, .banner, .sobre, .header {
+  .container {
     width: 400px;
+  }
+  .header h1{
+	  font-size: 20px;
+  }
+  .banner h1{
+	  font-size: 30px;
   }
 }
 
 
 @media (min-width: 800px) {
-  .container, .banner, .sobre, .header {
+  .container {
     width: 600px;
   }
 }
 
 @media (min-width: 1000px) {
-  .container, .banner, .sobre, .header {
+  .container {
     width: 800px;
   }
 }
@@ -232,5 +238,7 @@ a {
     width: auto;
   }
 }
+
+
 
 
