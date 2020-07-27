@@ -162,6 +162,7 @@ a {
 	font-family: 'Signika', sans-serif;
 	font-size: 25px;
 	padding-left: 10px;
+	margin: 0;
 }
 
 
@@ -192,7 +193,7 @@ a {
 
 .sb-img{
 	text-align: center;
-	margin: 70px 0px;
+	margin-top: 50px;
 }
 
 .sb-img img{
