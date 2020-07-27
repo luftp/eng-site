@@ -260,6 +260,18 @@ a {
 	color:rgba(50,50,50,0.8);
 }
 
+
+
+.button-blue {
+
+	background-color: #3049DE;
+	color: white;
+	padding: 10px 15px 3px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+
   
 @media (min-width: 500px) {
   .container {
@@ -286,7 +298,18 @@ a {
   }
 }
 
+
+
 @media only screen and (max-width: 768px) {
+
+
+
+
+	body{
+		
+		width: 100vw;
+	}
+
   .cards {
     grid-template-columns: 1fr;
   }
@@ -295,22 +318,36 @@ a {
     width: auto;
   }
   .header h1{
-	font-size: 20px;
+	font-size: 15px;
 	width: 140px;
 }
 
 .banner{
-	width: 800px;
+	width: 100%;
 }
 
+.contato{
+	height: 800px;
+}
+
+.banner h1{
+	font-size: 30px;
+}
+
+.sobre,.contato,.container{
+	padding: 20px;
 }
 
 
-.button-blue {
-
-	background-color: #3049DE;
-	color: white;
-	padding: 10px 15px 3px;
-	border-radius: 4px;
-	display: inline-block;
 }
+
+
+
+
+
+
+
+
+
+
+
