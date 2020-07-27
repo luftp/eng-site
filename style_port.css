@@ -22,6 +22,7 @@ h1 {
 }
 
 
+
 .header{
 	font-family: 'Signika', sans-serif;
 	padding: 50px;
@@ -32,7 +33,21 @@ h1 {
 	font-size: 50px;
 }
 
-.logo, .titulo{
+.logo{
+	text-align: center;
+}
+
+.header h2{
+
+		font-size: 30px;
+		color: black;
+		border: 2px solid black;
+		border-radius: 10px;
+		width: 200px;
+	
+}
+
+.hd-left, .titulo{
 	flex: 50%;
 }
 
