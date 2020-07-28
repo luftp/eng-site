@@ -158,7 +158,8 @@ a {
 	padding-top: 100px;
 }
 .sobre p{
-	text-align: left;
+	text-align: justify;
+	text-justify: inter-word;
 	font-family: 'Signika', sans-serif;
 	font-size: 25px;
 	padding-left: 10px;
