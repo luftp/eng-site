@@ -308,8 +308,130 @@ a {
 
 
 	body{
-		width: 840px;
+		width: vw;
+		font-size: 0.6em;
 	}
+
+	h2{
+		padding: 0 1em;
+	}
+
+	.header{
+		grid-template-columns: 1fr minmax(3em, 50%) 1fr;
+		width: 100vw;
+		height: 5em;
+	}
+
+	.logo{
+		display: grid;
+		place-items: center;
+	}
+
+	.header h1{
+		font-size: 1.2em;
+		border-radius: 0.17em;
+		border:0.01em solid white;
+		width: 7em;
+		margin: 0;
+		
+	}
+
+
+	.header ul{
+		height: 5em;
+		align-items: center;
+		justify-items: center;
+	}
+
+	.header li{
+
+
+		width: 7em;
+		margin: 0.5em;
+		padding: 0.5em;
+	}
+
+
+
+	.banner h1{
+		margin-left: 50%;
+		padding-top: 30vh;
+		font-size: 2em;
+	}
+
+	#sn{
+		top:-5em;
+	}
+
+
+	.sobre{
+		width: 100vw;
+		margin: 0;
+		padding: 0;
+	}
+
+	.sobre p{
+
+		font-size: 1.5em;
+		padding: 0 1em;
+	}
+
+	/* .sobre,.contato,.container{
+		padding: 1em;
+	} */
+
+	.sobre h2{
+		padding-top: 2em;
+		margin-top: 0;
+	}
+
+
+	#cn{
+		top:-5em;
+	}
+
+	.contato{
+		width: 100vw;
+		margin-top: 0;
+		height: 100vh;
+	}
+
+	.contato h2{
+		padding-top: 2em;
+		margin-top: 0;
+	}
+
+
+	.contato p{
+		font-size: 3em;
+	}
+
+	.sb-card{
+		grid-template-columns: 1fr;
+	}
+
+	.person{
+
+		grid-template-columns: 15em 1fr;
+	}
+	
+
+	#pt{
+		top:-5em;
+	}
+
+	.container{
+		width: 100vw;
+		margin-top: 0;
+	}
+
+
+	.container h2{
+		padding-top: 2em;
+		margin-top: 0;
+		margin-bottom: 3em;
+	}
+
 
 
 
@@ -320,27 +442,16 @@ a {
   .card-white {
     width: auto;
   }
-  .header h1{
-	font-size: 15px;
-	border-radius: 5px;
-	width: 100px;
-}
 
-.banner{
-	width: 100%;
-}
 
-.contato{
+
+
+/* .contato{
 	height: 800px;
-}
+} */
 
-.banner h1{
-	font-size: 30px;
-}
 
-.sobre,.contato,.container{
-	padding: 20px;
-}
+
 
 
 }
