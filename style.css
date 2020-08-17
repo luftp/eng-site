@@ -237,7 +237,8 @@ a {
 
 	width: 800px;
 	margin: auto;
-	margin-top: 200px;
+	margin-top: 0px;
+
 	
 }
 
@@ -250,7 +251,7 @@ a {
 .cards{
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 30px;
+	grid-gap: 20px;
 }
 
 
